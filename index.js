@@ -1,12 +1,77 @@
-let nome = 'José';
-let sobrenome = 'da Silva';
-let idade = 27;
-let peso = 83.5;
-let altura = 1.7;
-let temPlano = true;
-let imc = peso/(altura**2);
+let = num1 = 10;
+let = num2 = 5;
 
-//console.log(nome + ' ' + sobrenome + ' tem ' + idade + ' e seu índice de massa corporal é de ' + imc.toFixed(2));
+//Adição
 
-//template strings
-console.log(`${nome} ${sobrenome} tem ${idade} anos e seu indice de massa corporal é de ${imc.toFixed(2)}`)
+function adicao(num1, num2) {
+  let resultado = num1 + num2;
+
+  return resultado
+}
+
+//Subtração
+function subtracao(num1, num2) {
+  let resultado = num1 - num2;
+
+ return resultado
+
+  
+}
+
+function multiplicacao(num1, num2) {
+  let resultado = num1 * num2;
+
+  return resultado;
+}
+
+function divisao(num1, num2) {
+  let resultado = num1 / num2;
+
+  return resultado
+}
+
+
+//Numero ao quadrado
+function quadradoDoNumero(num1) {
+  let resultado = num1 ** 2;
+ 
+  return resultado
+  //console.log(` O quadrado de ${num1} é ${resultado}`);
+}
+
+
+//Calcula porcentagem
+function calculaPorcentagem(num1, num2) {
+    //console.log(`${num2} % de ${num1}`)
+    return num1 * (num2 / 100)
+    }
+
+
+console.log("------------Teste de Operações / Calculadora ------------");
+
+console.log(`
+    O Resultado da adição ${num1} com ${num2} ${adicao(num1, num2)}
+    `);
+
+console.log(`
+    O Resultado da subtração  ${num1} com ${num2} é ${subtracao(num1, num2)}
+    `);
+
+
+    console.log(`
+    O Resultado da multiplicação  ${num1} com ${num2} é ${multiplicacao(num1, num2)}
+    `);
+
+    console.log(`
+    O Resultado da divisão  ${num1} com ${num2} é ${divisao(0, num2)}
+    `);
+
+    console.log(`
+    O resultado do quadrado de  ${num1} com ${num2} é ${quadradoDoNumero(num1)}
+    `)
+
+
+
+
+
+
