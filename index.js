@@ -49,26 +49,26 @@ function calculaPorcentagem(num1, num2) {
 
 console.log("------------Teste de Operações / Calculadora ------------");
 
-console.log(`
-    O Resultado da adição ${num1} com ${num2} ${adicao(num1, num2)}
-    `);
+//console.log(`
+//    O Resultado da adição ${num1} com ${num2} ${adicao(num1, num2)}
+//    `);
 
-console.log(`
-    O Resultado da subtração  ${num1} com ${num2} é ${subtracao(num1, num2)}
-    `);
+//console.log(`
+//    O Resultado da subtração  ${num1} com ${num2} é ${subtracao(num1, num2)}
+//    `);
 
 
-    console.log(`
-    O Resultado da multiplicação  ${num1} com ${num2} é ${multiplicacao(num1, num2)}
-    `);
+//    console.log(`
+//    O Resultado da multiplicação  ${num1} com ${num2} é ${multiplicacao(num1, num2)}
+//    `);
 
-    console.log(`
-    O Resultado da divisão  ${num1} com ${num2} é ${divisao(0, num2)}
-    `);
+//    console.log(`
+//    O Resultado da divisão  ${num1} com ${num2} é ${divisao(0, num2)}
+//    `);
 
-    console.log(`
-    O resultado do quadrado de  ${num1} com ${num2} é ${quadradoDoNumero(num1)}
-    `)
+//    console.log(`
+//    O resultado do quadrado de  ${num1} com ${num2} é ${quadradoDoNumero(num1)}
+//    `)
 
 
 
